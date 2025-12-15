@@ -1,0 +1,90 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url(../slike/bg.png);
+}
+p{
+    line-height: 26px;
+    text-align: justify;
+}
+nav{
+    position: fixed;
+    padding: 5px;
+    background-color: #00C78C ;
+    width: 100%;
+    
+    
+    border-bottom: solid 3px #FF3333;
+
+}
+nav a{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    
+}
+nav a:hover{
+    background-color: #FF3333 ;
+    border-radius: 5px;
+}
+nav a:active{
+    background-color: #FF3333 ;
+    border-radius: 5px;
+}
+nav ul{
+    text-align: center;
+}
+nav ul li{
+    display:inline-block;
+}
+header{
+    padding-top: 61px;
+}
+header img{
+    
+    width: 100%;
+}
+main{
+    width: 1024px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 0px 0px 10px #635b5b ;
+    margin-top: -25px;
+}
+h1{
+    padding: 25px
+}
+section{
+    padding: 20px;
+}
+.slika1{
+    width: 49.1%;
+    float: left;
+    
+}
+.slika2{
+    width: 49%;
+    float: right;
+
+}
+.clearfix{
+    clear: both;
+}
+footer iframe{
+    width: 100%;
+    height: 350;
+}
+input, textarea{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #00C78C ;
+}
+button{
+    background-color: #00C78C ;
+    color: white;
+    width: 100px;
+}
+button:hover{
+    background-color: #FF3333;
+    border: 1px solid #FF3333;
+}
